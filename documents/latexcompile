@@ -398,7 +398,7 @@ function filelist() {
 
 function detectLatex() {
 	LATEX=
-	LATEX_CANDIDATES=(lualatex pdflatex)
+	LATEX_CANDIDATES=(pdflatex lualatex)
 
 	for candidate in ${LATEX_CANDIDATES}; do
 		which ${candidate} &>/dev/null
