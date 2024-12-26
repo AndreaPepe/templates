@@ -1,0 +1,23 @@
+*~
+*.dvi
+*.aux
+*.log
+*.out
+*.blg
+*.bbl
+*.lof
+*.lot
+*.toc
+*.maf
+*.nlo
+*.mtc
+*.mtc?
+*.bak
+*.backup
+*.snm
+*.nav
+*.vrb
+
+# typical names - change these if needed
+main*.pdf
+document*.pdf
